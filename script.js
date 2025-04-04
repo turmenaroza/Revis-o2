@@ -35,7 +35,7 @@
 //*let ganho = 0 
 //let gasto = 0
 //let saldo = 0
-//let n = parseFloat(prompt('fale o total do seu gasto bruto no primeiro mês '));
+//let n = parseFloat(prompt('digite um, número '));
 //let n2 = parseFloat(prompt('fale o total do seu gasto bruto no segundo mês '));
 //let n3 = parseFloat(prompt('fale o total do seu gasto bruto no terceiro mês '));
 //let n4 = parseFloat(prompt('fale o total do seu gasto bruto no quarto mês '));
@@ -71,8 +71,20 @@
 
     //saldo =  ganho - gasto
     //console.log('seu saldo total foi de' , saldo)
-    if (saldo => 0) {
-        console.log('seu saldo foi positivo');
-    } else {
-        console.log('seu saldo foi negativo');
-    }
+    //if (saldo => 0) {
+        //console.log('seu saldo foi positivo');
+    //} else {
+        //console.log('seu saldo foi negativo');
+    //}
+
+let Demo1 = 0
+let Demo2 = 0
+let n = parseFloat(prompt('digite um, número '));
+let n2 = parseFloat(prompt('digite um, número '));
+let n3 = parseFloat(prompt('digite um, número  '));
+let n4 = parseFloat(prompt('digite um, número  ')); 
+const numeros = [n,n2,n3,n4];
+document.getElementById(Demo1).innerHTML = numeros;
+
+numeros.sort();
+document.getElementById(Demo2).innerHTML = numeros;
